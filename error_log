@@ -1,0 +1,5 @@
+[19-Oct-2023 13:53:56 UTC] PHP Warning:  "resource" is not a supported builtin type and will be interpreted as a class name. Write "\App\Controllers\resource" or import the class with "use" to suppress this warning in /home/xhtmlreviews/public_html/api-player6/app/Controllers/User.php on line 7
+[20-Oct-2023 11:02:09 UTC] PHP Fatal error:  Access level to App\Models\UserModel::$db must be protected (as in class CodeIgniter\BaseModel) or weaker in /home/xhtmlreviews/public_html/api-player6/app/Models/UserModel.php on line 6
+[20-Oct-2023 11:03:42 UTC] PHP Fatal error:  Cannot redeclare App\Models\UserModel::$db in /home/xhtmlreviews/public_html/api-player6/app/Models/UserModel.php on line 10
+[20-Oct-2023 11:04:06 UTC] PHP Fatal error:  Cannot redeclare App\Models\UserModel::$db in /home/xhtmlreviews/public_html/api-player6/app/Models/UserModel.php on line 10
+[20-Oct-2023 11:04:25 UTC] PHP Fatal error:  Access level to App\Models\UserModel::$db must be protected (as in class CodeIgniter\BaseModel) or weaker in /home/xhtmlreviews/public_html/api-player6/app/Models/UserModel.php on line 6

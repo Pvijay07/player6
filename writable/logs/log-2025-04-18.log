@@ -1,0 +1,1162 @@
+WARNING - 2025-04-18 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 00:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:34 --> 220 sxb1plsmtpa01-13.prod.sxb1.secureserver.net :SMTPAUTH: 5ZcoukEwq7GM5 : ESMTP server sxb1plsmtpa01-13.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-13.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 00:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:34 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:30:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:30:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:30:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:30:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:30:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:31:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:31:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:32:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:32:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:33:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:33:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:33:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 00:33:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 00:33:11 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 03:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 03:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 03:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 03:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:30:34 --> 220 sxb1plsmtpa01-14.prod.sxb1.secureserver.net :SMTPAUTH: 5cR0uoVAYvJTw : ESMTP server sxb1plsmtpa01-14.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-14.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 03:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:07 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:13 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:19 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:25 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:31 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:37 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:43 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:49 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:31:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:31:55 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:01 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:07 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:13 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:19 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:25 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:31 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:37 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:43 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:49 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:32:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:32:55 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:33:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:33:01 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:33:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:33:07 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:33:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 03:33:13 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 03:33:13 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Toss::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 06:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:34 --> 220 sxb1plsmtpa01-13.prod.sxb1.secureserver.net :SMTPAUTH: 5fFDum11L7GM5 : ESMTP server sxb1plsmtpa01-13.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-13.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 06:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:30:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:30:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:30:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:30:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:30:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:31:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:31:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:32:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:32:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:33:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:33:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:33:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 06:33:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 06:33:11 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 09:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:34 --> 220 sxb1plsmtpa01-11.prod.sxb1.secureserver.net :SMTPAUTH: 5i3Pu3ykLoGJS : ESMTP server sxb1plsmtpa01-11.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-11.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 09:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:30:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:30:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:30:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:30:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:30:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:31:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:31:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:32:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:32:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:33:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:33:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:33:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 09:33:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 09:33:11 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 12:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:34 --> 220 sxb1plsmtpa01-07.prod.sxb1.secureserver.net :SMTPAUTH: 5krauFe5AIxBU : ESMTP server sxb1plsmtpa01-07.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-07.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 12:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:34 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:30:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:40 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:30:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:46 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:30:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:52 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:30:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:30:58 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:04 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:10 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:16 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:22 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:28 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:34 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:40 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:46 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:52 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:31:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:31:58 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:04 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:10 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:16 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:22 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:28 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:34 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:40 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:46 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:52 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:32:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:32:58 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:33:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:33:04 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:33:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 12:33:10 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 12:33:10 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 15:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:35 --> 220 sxb1plsmtpa01-15.prod.sxb1.secureserver.net :SMTPAUTH: 5nfnu96JSYWbj : ESMTP server sxb1plsmtpa01-15.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-15.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 15:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:30:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:30:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:30:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:30:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:30:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:31:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:31:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:32:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:32:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:33:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:33:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:33:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 15:33:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 15:33:11 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Toss::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 18:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:30:35 --> 220 sxb1plsmtpa01-08.prod.sxb1.secureserver.net :SMTPAUTH: 5qTzuOgjt3QTB : ESMTP server sxb1plsmtpa01-08.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-08.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 18:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:06 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:12 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:18 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:24 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:30 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:36 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:31:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:31:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:06 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:12 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:18 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:24 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:30 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:36 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:32:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:32:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:33:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:33:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:33:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:33:06 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:33:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 18:33:12 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 18:33:12 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-18 21:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 21:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-18 21:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-18 21:30:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:34 --> 220 sxb1plsmtpa01-15.prod.sxb1.secureserver.net :SMTPAUTH: 5tIAuAvbEYWbj : ESMTP server sxb1plsmtpa01-15.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-15.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-18 21:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:30:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:30:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:30:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:30:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:30:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:31:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:31:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:17 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:23 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:29 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:35 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:41 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:47 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:53 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:32:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:32:59 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:33:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:33:05 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:33:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-18 21:33:11 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-18 21:33:11 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}

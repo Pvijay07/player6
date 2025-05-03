@@ -1,0 +1,463 @@
+WARNING - 2025-04-19 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 00:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 00:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:30:35 --> 220 sxb1plsmtpa01-06.prod.sxb1.secureserver.net :SMTPAUTH: 5w6NuS3DivLZO : ESMTP server sxb1plsmtpa01-06.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-06.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 00:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 00:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 00:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 00:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 00:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 00:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 00:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 03:30:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 03:30:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 03:30:33 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 03:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:30:36 --> 220 sxb1plsmtpa01-09.prod.sxb1.secureserver.net :SMTPAUTH: 5yuaurE6su9k5 : ESMTP server sxb1plsmtpa01-09.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-09.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 03:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 03:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 03:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 03:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 03:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 03:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 03:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Toss::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 06:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 06:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:30:35 --> 220 sxb1plsmtpa01-14.prod.sxb1.secureserver.net :SMTPAUTH: 61iluRpLFlN0H : ESMTP server sxb1plsmtpa01-14.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-14.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 06:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 06:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 06:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 06:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 06:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 06:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 06:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 09:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 09:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:30:35 --> 220 sxb1plsmtpa01-14.prod.sxb1.secureserver.net :SMTPAUTH: 64WxuSgANlN0H : ESMTP server sxb1plsmtpa01-14.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-14.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 09:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 09:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 09:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 09:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 09:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 09:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 09:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 12:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 12:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:30:35 --> 220 sxb1plsmtpa01-15.prod.sxb1.secureserver.net :SMTPAUTH: 67L9uF1uvYWbj : ESMTP server sxb1plsmtpa01-15.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-15.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 12:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:30:35 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 12:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 12:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 12:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 12:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 12:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 12:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 15:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 15:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:30:35 --> 220 sxb1plsmtpa01-14.prod.sxb1.secureserver.net :SMTPAUTH: 6A9MuURGWlN0H : ESMTP server sxb1plsmtpa01-14.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-14.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 15:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 15:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 15:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 15:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 15:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 15:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 15:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Toss::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Series::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 18:30:32 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 18:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:30:36 --> 220 sxb1plsmtpa01-06.prod.sxb1.secureserver.net :SMTPAUTH: 6CxWuMe4HCVBZ : ESMTP server sxb1plsmtpa01-06.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-06.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 18:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 18:30:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:30:43 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 18:30:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:30:49 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 18:30:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:30:55 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 18:31:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 18:31:01 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 18:31:01 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+WARNING - 2025-04-19 21:30:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Matches::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 21:30:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Cron\Players::$validation is deprecated in APPPATH/Controllers/BaseController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-04-19 21:30:31 --> [DEPRECATED] Creation of dynamic property App\Models\UserModel::$userBankAccoTbl is deprecated in APPPATH/Models/UserModel.php on line 18.
+ 1 APPPATH/Controllers/Cron/Players.php(34): App\Models\UserModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Cron\Players->getMatchPlayers()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron\Players))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-19 21:30:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:30:35 --> 220 sxb1plsmtpa01-04.prod.sxb1.secureserver.net :SMTPAUTH: 6FlhuHhwfKNFh : ESMTP server sxb1plsmtpa01-04.prod.sxb1.secureserver.net ready
+
+hello: 250-sxb1plsmtpa01-04.prod.sxb1.secureserver.net hello [182.18.149.32], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+
+Failed to authenticate password. Error: 535 User support@player6sports.com has been restricted.
+
+ERROR - 2025-04-19 21:30:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:30:36 --> Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 21:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:30:42 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 21:30:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:30:48 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 21:30:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:30:54 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 21:31:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-19 21:31:00 --> Unable to send data: AUTH LOGIN
+
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-04-19 21:31:00 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php:2062
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fwrite(): SSL o...', '/home/xhtmlrevi...', 2062)
+#1 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2062): fwrite(Resource id #166, 'QUIT\r\n')
+#2 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(1971): CodeIgniter\Email\Email->sendData('QUIT\r\n')
+#3 /home/xhtmlreviews/public_html/api-player6/system/Email/Email.php(2206): CodeIgniter\Email\Email->sendCommand('quit')
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
