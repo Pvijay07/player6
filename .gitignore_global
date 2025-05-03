@@ -1,0 +1,66 @@
+# ----------------------
+# CI4 Standard Ignores
+# ----------------------
+
+# System directory (if placed inside the project)
+system/
+
+# Environment-specific files
+.env
+.env.*
+
+# Vendor dependencies (for Composer)
+vendor/
+
+# Node modules (if you're using npm/yarn)
+node_modules/
+
+# IDE/editor/project settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+writable/logs/*
+!writable/logs/index.html
+
+# Cache files
+writable/cache/*
+!writable/cache/index.html
+
+# Session files
+writable/session/*
+!writable/session/index.html
+
+# Uploads (optional)
+writable/uploads/*
+!writable/uploads/index.html
+
+# Build tools (optional if using webpack/parcel etc.)
+dist/
+public/build/
+public/assets/
+
+# PHPUnit results
+phpunit.xml
+phpunit.xml.dist
+build/
+
+# Composer lock file (optional – ignore if you want consistent versions)
+# composer.lock
+
+# Backup or temp files
+*.bak
+*.tmp
+*.swp
+*.orig
+*.log
+*.cache
+
+# Git submodule folder (if using)
+.gitmodules
